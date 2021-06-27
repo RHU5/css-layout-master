@@ -1,0 +1,33 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 200px);
+  background-color: blue;
+}
+.header {
+  background-color: aqua;
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+.content {
+  background-color: blueviolet;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+.nav {
+  background-color: crimson;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+.footer {
+  background-color: darkgreen;
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+.box {
+  background-color: darkkhaki;
+  width: 200px;
+  height: 100px;
+}
