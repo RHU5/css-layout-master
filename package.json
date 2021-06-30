@@ -1,0 +1,23 @@
+{
+  "name": "css-layout-master",
+  "version": "1.0.0",
+  "description": "CSS",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch src/css/style.scss:src/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RHU5/css-layout-master.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RHU5/css-layout-master/issues"
+  },
+  "homepage": "https://github.com/RHU5/css-layout-master#readme",
+  "devDependencies": {
+    "eslint": "^7.29.0",
+    "sass": "^1.35.1"
+  }
+}

@@ -1,33 +1,36 @@
-.grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(4, 200px);
-  background-color: blue;
+.Container h2 {
+  font-family: inherit;
+  border-radius: 7px;
+  font-size: 12px;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  background-color: peru;
+  color: white;
+  font-weight: 500;
 }
-.header {
-  background-color: aqua;
-  grid-column-start: 1;
-  grid-column-end: 4;
+
+.Container h1 {
+  color: #e39d32;
+  font-size: 50px;
 }
-.content {
-  background-color: blueviolet;
-  grid-column-start: 1;
-  grid-column-end: 3;
-  grid-row-start: 2;
-  grid-row-end: 4;
+.Container h1:hover {
+  color: blue;
+  background-color: wheat;
 }
-.nav {
-  background-color: crimson;
-  grid-row-start: 2;
-  grid-row-end: 4;
+@media screen and (max-width: 479px) {
+  .Container h3 {
+    font-size: 20px;
+  }
 }
-.footer {
-  background-color: darkgreen;
-  grid-column-start: 1;
-  grid-column-end: 4;
+@media screen and (min-width: 480px) and (max-width: 1023px) {
+  .Container h3 {
+    font-size: 40px;
+  }
 }
-.box {
-  background-color: darkkhaki;
-  width: 200px;
-  height: 100px;
+@media screen and (min-width: 1024px) {
+  .Container h3 {
+    font-size: 50px;
+  }
 }
+
+/*# sourceMappingURL=style.css.map */

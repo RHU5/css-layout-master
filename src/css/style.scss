@@ -1,0 +1,27 @@
+@import '_variables';
+@import '_mixins';
+@import '_extends';
+
+.Container {
+  h1 {
+    color: $bg;
+    @include sizeTitle('big');
+    &:hover {
+      @include sexyTitle(blue);
+    }
+  }
+  h2 {
+    @extend %button;
+  }
+  h3 {
+    @include responsive('mobile') {
+      font-size: 20px;
+    }
+    @include responsive('tablet') {
+      font-size: 40px;
+    }
+    @include responsive('pc') {
+      font-size: 50px;
+    }
+  }
+}

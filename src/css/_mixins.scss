@@ -1,0 +1,30 @@
+@mixin sexyTitle($color) {
+  color: $color;
+  background-color: wheat;
+}
+
+@mixin sizeTitle($word) {
+  @if $word == 'big' {
+    font-size: 50px;
+  } @else if $word == 'small' {
+    font-size: 5px;
+  } @else {
+    font-size: 16px;
+  }
+}
+
+@mixin responsive($device) {
+  @if $device == 'mobile' {
+    @media screen and (max-width: 479px) {
+      @content;
+    }
+  } @else if $device == 'tablet' {
+    @media screen and (min-width: 480px) and (max-width: 1023px) {
+      @content;
+    }
+  } @else if $device == 'pc' {
+    @media screen and (min-width: 1024px) {
+      @content;
+    }
+  }
+}
