@@ -15,6 +15,7 @@
 - align-content
   - 행 단위 이동
   - 높이가 존재해야함
+  - flex-wrap default 값이 nowrap이기 때문에 강제로 한줄로 유지되는 형태라 align-content 
   - flex-wrap 사용 시 단일 행에서 여러 행으로 바뀐 경우, align-content로 위치 수정
 - align-items
   - 아이템들의 위치 수정
