@@ -15,7 +15,7 @@
 - align-content
   - 행 단위 이동
   - 높이가 존재해야함
-  - flex-wrap default 값이 nowrap이기 때문에 강제로 한줄로 유지되는 형태라 align-content 
+  - flex-wrap default 값이 nowrap이기 때문에 강제로 한줄로 유지되는 형태라 align-content로 변경 안됨
   - flex-wrap 사용 시 단일 행에서 여러 행으로 바뀐 경우, align-content로 위치 수정
 - align-items
   - 아이템들의 위치 수정
@@ -35,6 +35,8 @@
   - (shortcut) flex-grow | flex-shrink | flex-basis
 - order
   - (default) 0, 이 값 순서대로 나열됨
+
+![image](https://user-images.githubusercontent.com/75672249/139773858-a564217a-5fda-47b8-b558-be600151692d.png)
 
 ## display: grid
 ### grid 부모 속성
